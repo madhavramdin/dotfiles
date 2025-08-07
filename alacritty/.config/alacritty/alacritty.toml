@@ -1,0 +1,65 @@
+[window]
+opacity = 1
+padding.x = 10
+padding.y = 10
+#decorations = "None"
+decorations_theme_variant = "Dark" # "Dark"
+startup_mode = "Maximized"
+dynamic_title = false
+# Colors (Gruvbox dark)
+
+# Default colors
+[colors.primary]
+# hard contrast background = = '#1d2021'
+background = '#282828'
+# soft contrast background = = '#32302f'
+foreground = '#ebdbb2'
+
+# Normal colors
+[colors.normal]
+black   = '#282828'
+red     = '#cc241d'
+green   = '#98971a'
+yellow  = '#d79921'
+blue    = '#458588'
+magenta = '#b16286'
+cyan    = '#689d6a'
+white   = '#a89984'
+
+# Bright colors
+[colors.bright]
+black   = '#928374'
+red     = '#fb4934'
+green   = '#b8bb26'
+yellow  = '#fabd2f'
+blue    = '#83a598'
+magenta = '#d3869b'
+cyan    = '#8ec07c'
+white   = '#ebdbb2'
+[shell]
+program = "/usr/bin/zsh"
+args = ["-l"] # Optional: Start Zsh as a login shell
+#windows
+#program = "C:\\Windows\\System32\\wsl.exe"
+#args = ["-d", "Ubuntu-24.04", "--cd", "~"]
+[[keyboard.bindings]]
+key = "Space"
+mods = "Control"
+chars = "\u0000"
+[font]
+size = 14.0
+[font.normal]
+family = "Firacode Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Firacode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Firacode Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "Firacode Nerd Font"
+style = "Bold Italic"
