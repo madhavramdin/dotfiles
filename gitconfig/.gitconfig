@@ -1,0 +1,7 @@
+[user]
+	email = madhavramdin@gmail.com
+	name = Madhav Ramdin
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[init]
+	defaultBranch = main
