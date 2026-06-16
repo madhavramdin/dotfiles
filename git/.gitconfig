@@ -1,0 +1,18 @@
+[user]
+	email = madhav.ramdin@hps-worldwide.com
+	name = Madhav Ramdin
+
+[url "ssh://git@bitbucket.org/"]
+	insteadOf = https://bitbucket.org/
+
+[init]
+	defaultBranch = master
+
+[diff]
+	tool = diff
+
+[difftool]
+	prompt = false
+
+[includeIf "gitdir:~/github/"]
+	path = ~/.gitconfig-github
